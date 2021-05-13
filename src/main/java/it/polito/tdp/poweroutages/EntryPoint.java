@@ -27,6 +27,7 @@ public class EntryPoint extends Application {
         // TODO impostare il model nel controller   
         Model model = new Model();
         controller.setModel(model);
+        controller.setNerc();
                 
         
         stage.setTitle("JavaFX and Maven");
